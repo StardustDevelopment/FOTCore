@@ -26,9 +26,7 @@ public class AspectModifier {
                     // NOP - behave as usual
                 }
 
-                case STATIC -> {
-                    cir.setReturnValue(GTM.Config.Thaumcraft.STATIC_ASPECTS);
-                }
+                case STATIC -> cir.setReturnValue(GTM.Config.Thaumcraft.STATIC_ASPECTS);
 
                 case NONHUMAN -> {
                     AspectList list = new AspectList();

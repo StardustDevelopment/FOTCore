@@ -87,7 +87,7 @@ public class GTM {
                 STATIC_ASPECTS = parseAspects(configuration.getString("staticAspects", "thaumcraft.aspects", "humanus", "Static aspects for aspectMode STATIC.").split(" "));
 
                 try {
-                    NON_HUMAN_ASPECT = Aspect.getAspect(configuration.getString("staticAspects", "thaumcraft.aspects", "alienis", "Non-human aspect for aspectMode NONHUMAN."));
+                    NON_HUMAN_ASPECT = Aspect.getAspect(configuration.getString("nonHumanAspect", "thaumcraft.aspects", "alienis", "Non-human aspect for aspectMode NONHUMAN."));
                 } catch (IllegalArgumentException ignored) {}
             };
 
