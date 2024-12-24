@@ -41,9 +41,7 @@ public class AspectModifier {
                     list.add(posa[rand.nextInt(posa.length)], 4);
                 }
 
-                case NONE -> {
-
-                }
+                case NONE -> cir.setReturnValue(new AspectList());
             }
         }
     }
