@@ -4,5 +4,5 @@
 dependencies {
     implementation deobfCurse("baubles-227083:2224857")
     implementation deobfCurse("thaumcraft-223628:2227552")
-    implementation deobfCurse("thaumcraft-inventory-scanning-238003:2286894")
+    implementation deobfCurse("botania-225643:2283837")
 }

@@ -1,4 +1,4 @@
-package xyz.lilyflower.gtm.mixin.plugin;
+package xyz.lilyflower.fotcore.mixin.plugin;
 
 import cpw.mods.fml.relauncher.FMLLaunchHandler;
 
@@ -7,7 +7,7 @@ import java.util.HashSet;
 import java.util.List;
 
 public enum Mixin {
-    ASPECT_MODIFIER("thaumcraft.AspectModifier", TargetedMod.THAUMCRAFT)
+    BOTANIA_VIS_DISCOUNTS_MANAWEAVE("interop.BotaniaVisDiscounts$Manaweave")
 
     ;
 

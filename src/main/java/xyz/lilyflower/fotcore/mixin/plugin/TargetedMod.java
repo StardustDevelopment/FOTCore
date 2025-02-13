@@ -1,4 +1,4 @@
-package xyz.lilyflower.gtm.mixin.plugin;
+package xyz.lilyflower.fotcore.mixin.plugin;
 
 import com.google.common.io.Files;
 
@@ -15,7 +15,6 @@ public enum TargetedMod {
 
     // Replace with your injected mods here, but always keep VANILLA:
     VANILLA("Minecraft", "unused", true),
-    THAUMCRAFT("Thaumcraft", "Thaumcraft", true);
 
     ;
 

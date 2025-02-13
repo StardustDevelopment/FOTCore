@@ -1,4 +1,4 @@
-package xyz.lilyflower.gtm.mixin.plugin;
+package xyz.lilyflower.fotcore.mixin.plugin;
 
 import net.minecraft.launchwrapper.Launch;
 import org.apache.logging.log4j.LogManager;
@@ -21,9 +21,9 @@ import java.util.stream.Collectors;
 import static java.nio.file.Files.walk;
 
 @SuppressWarnings({"deprecation", "CallToPrintStackTrace"})
-public class GenericTweakerPlugin implements IMixinConfigPlugin {
+public class FoTMixinLoader implements IMixinConfigPlugin {
 
-    private static final Logger LOG = LogManager.getLogger("Generic Tweak Mixins");
+    private static final Logger LOG = LogManager.getLogger("FoT Mixin Loader");
     private static final Path MODS_DIRECTORY_PATH = new File(Launch.minecraftHome, "mods/").toPath();
 
     @Override

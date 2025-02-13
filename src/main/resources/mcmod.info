@@ -3,10 +3,10 @@
 	"modList": [{
 		"modid": "${modId}",
 		"name": "${modName}",
-		"description": "Generic tweaks for various 1.7.10 mods.",
+		"description": "Core mod for Folk of Thaumaturgy modpack.",
 		"version": "${modVersion}",
 		"mcversion": "${minecraftVersion}",
-		"url": "https://github.com/AutumnalModding/GenericTweakMod",
+		"url": "https://github.com/StardustDevelopment/FoTCore",
 		"updateUrl": "",
 		"authorList": ["SpectreiCyanogen / LilyflowerFDL"],
 		"credits": "",
