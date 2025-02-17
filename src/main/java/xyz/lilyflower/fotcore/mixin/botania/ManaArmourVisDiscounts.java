@@ -1,4 +1,4 @@
-package xyz.lilyflower.fotcore.mixin.late;
+package xyz.lilyflower.fotcore.mixin.botania;
 
 import java.util.List;
 import net.minecraft.entity.player.EntityPlayer;
@@ -13,7 +13,7 @@ import vazkii.botania.common.item.equipment.armor.manaweave.ItemManaweaveArmor;
 import vazkii.botania.common.item.equipment.armor.terrasteel.ItemTerrasteelArmor;
 import vazkii.botania.common.item.interaction.thaumcraft.ItemTerrasteelHelmRevealing;
 
-public class BotaniaVisDiscounts {
+public class ManaArmourVisDiscounts {
     @Mixin(ItemManaweaveArmor.class)
     public static abstract class Manaweave extends ItemArmor implements IVisDiscountGear {
         public Manaweave(ArmorMaterial material, int index, int type) {

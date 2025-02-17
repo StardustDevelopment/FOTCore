@@ -1,8 +1,9 @@
 package xyz.lilyflower.fotcore.init.mixin;
 
 public enum FoTMixins {
-    BOTANIA_VIS_DISCOUNTS_MANAWEAVE("BotaniaVisDiscounts$Manaweave", Phase.LATE),
-    BOTANIA_VIS_DISCOUNTS_TERRASTEEL("BotaniaVisDiscounts$Terrasteel", Phase.LATE)
+    BOTANIA_MAVD_MANAWEAVE("botania.ManaArmourVisDiscounts$Manaweave", Phase.LATE),
+    BOTANIA_MAVD_TERRASTEEL("botania.ManaArmourVisDiscounts$Terrasteel", Phase.LATE),
+    BOTANIA_FLUXFIELD_NERF("botania.FluxfieldNerf", Phase.LATE)
 
     ;
 
